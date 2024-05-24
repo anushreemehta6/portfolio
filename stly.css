@@ -1,33 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(25, 21, 39, 1);
+}
 
+.name {
+  height: 108 in;
+  width: 529 in;
+  text-align: center;
 }
-body{
-    background-color:rgba(25, 21, 39, 1) ;
+#head {
+  color: white;
+  font-size: 75px;
+  font-family: "Istok Web";
+  padding-bottom: 10px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 47.38 in;
+  width: 1431 in;
+
+  font-size: 30px;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
 }
 
-.name{
-    height: 108 in;
-    width: 529 in;
-    text-align: center;
+.content {
+  display: flex;
+  padding: 20px;
+  padding-top: 60px;
+  gap: 50px;
+  justify-content: space-evenly;
 }
-#head{
-    color: white;
-    font-size: 75px;
-    font-family: 'Istok Web';
-    padding-bottom: 10px;
+.writen {
+  display: flex;
+  flex-direction: column;
 }
-.nav-bar{
-    display: flex;
-    align-items: center;
-    justify-content:  space-evenly;
-    height:47.38 in;
-    width:  1431 in ;
-   
-    font-size: 30px;
+ 
+ 
+img{
+  border-radius: 50%;
+ 
+  border: 10px solid rgba(250, 20, 255, 1);
 }
- .nav-bar a{
-    text-decoration: none;
-    color: white;
- }
