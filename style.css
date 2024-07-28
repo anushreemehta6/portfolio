@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2D3551;
+    width: 1440px;
+    
+}
+.logo{
+    padding: 5px;
+}
+.logo img{
+    width: 191px;
+    height: 181px;
+    border-radius: 50%;
+}
+.maintext{
+    padding: 50px;
+}
+.child-1,.child-2{
+   
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+    color: white;
+
+}
+.child-3{
+    font-family: "Inter", sans-serif;
+    font-size: 90px;
+    font-weight: bolder;
+    color: #DAB5C4;
+}
+.mainimg img{
+    position: absolute;
+    right: 0;
+    
+    bottom: 2px;
+    width: 525px;
+    height: 525px;
+    border-radius: 50%;
+}
+#btnmain{
+    padding-left: 50px;
+}
+button{
+    width: 234px;
+    height: 70px;
+    border-radius: 34px;
+    font: medium;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    background-color: #917468;
+    color: white;
+     
+}
