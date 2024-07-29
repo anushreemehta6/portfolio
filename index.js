@@ -1,3 +1,4 @@
+ // about me button on main screen 
  let button = document.getElementById("btn")
 
 function Change(){
