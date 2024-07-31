@@ -131,7 +131,7 @@ header {
 
 /* experience page  */
 
-#heading-e {
+#heading-e ,.heading-s {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -178,4 +178,21 @@ header {
     padding-top: 80px;
     text-align: center;
     color: white;
+}
+
+
+/* skills page  */
+.heading-s{
+
+}
+.scroller{
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  white-space: nowrap;
+}
+.scroll-items img{
+  width: 290px;
+  height: 290px;
+  border-radius: 50%;
 }
