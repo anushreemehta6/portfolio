@@ -43,10 +43,23 @@ function zoomout(){
 
 }
 
-// scroll to experience
+
 document.getElementById('exp').addEventListener('click', function() {
     document.getElementById('heading-e').scrollIntoView({ behavior: 'smooth' });
   });
+// scroll to skill
   document.getElementById('skl').addEventListener('click', function() {
     document.getElementById('heading-e').scrollIntoView({ behavior: 'smooth' });
+  });
+
+  // scroll to contact me 
+  document.getElementById('cont').addEventListener('click', function() {
+    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+  });
+  
+
+
+
+  document.getElementById('exp-2').addEventListener('click', function() {
+    document.getElementById('more').scrollIntoView({ behavior: 'smooth' });
   });
