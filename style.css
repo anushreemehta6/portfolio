@@ -60,3 +60,10 @@ button{
 }
 
 
+.exp-2{
+    text-decoration: none;
+    color: white;
+    font: medium;
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+}

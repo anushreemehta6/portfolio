@@ -33,7 +33,7 @@ header {
   align-items: center;
   background-color: #917468;
 }
-.main-nav a , #exp ,#skl {
+.main-nav a , #exp ,#skl,#cont ,#exp-2{
   text-decoration: none;
   color: white;
   font: medium;
@@ -128,10 +128,13 @@ header {
   background: #917468;
   box-shadow: 0 0 100px #917468;
 }
+.spe{
+  font-family: "Grenze Gotisch", serif;
+}
 
 /* experience page  */
 
-#heading-e ,.heading-s {
+#heading-e ,.heading-s,.heading-c {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -195,4 +198,64 @@ header {
   width: 290px;
   height: 290px;
   border-radius: 50%;
+}
+
+/* contact page  */
+.imag img{
+  margin-left: 30px;
+  width: 498px;
+  height: 513px;
+  border-radius: 50%;
+}
+.box-c{
+  width: 750px;
+  height: 550px;
+  border-radius: 92px;
+  background-color: #dab5c4;
+  padding: 20px;
+}
+.bg{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.name{
+  display: flex;
+  justify-content: space-around;
+}
+.incont-c{
+  font-size: 36px ;
+  font-weight: 600;
+   
+  font-family: "Hepta Slab", serif;
+
+}
+.cont-c{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.input-c{
+  width: 375px;
+  height: 55px;
+  background-color: #917468;
+  border-radius: 17px;
+  color: white;
+  font-size: 29px;
+}
+
+.icons{
+  display: flex;
+ 
+  justify-content: center;
+}
+.last{
+  height: 30px;
+  width: 1440px;
+  font-size: larger;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.566);
+  color: white;
+  text-align: center;
 }
