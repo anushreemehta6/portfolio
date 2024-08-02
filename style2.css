@@ -134,7 +134,7 @@ header {
 
 /* experience page  */
 
-#heading-e ,.heading-s,.heading-c {
+#heading-e ,.heading-s,.heading-c,.heading-p {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -258,4 +258,68 @@ header {
   background-color: rgba(0, 0, 0, 0.566);
   color: white;
   text-align: center;
+}
+
+
+/* project page */
+.row{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.outer-p{
+  width: 564px;
+  height: 493px;
+  background-color: #dab5c4;
+  border-radius: 26px;
+}
+.inner-p{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 150em;
+  left: 14em;
+   /* margin-left: 150px; */
+  
+}
+
+.inner2-p{
+  background-color: #917468;
+  width: 514px;
+  height: 248px;
+  border-radius: 15px;
+  position: absolute;
+  left: 6em;
+  top: 165em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.innerhead-p{
+  text-align: center;
+  margin-top: 130px;
+  font-size: 40px;
+   font-weight: bold;
+  font-family: "Hepta Slab", serif;
+}
+
+.continner-p{
+  padding: 15px;
+  text-align: center;
+  font-size: 29px;
+  font-family: "Hepta Slab", serif;
+  color: white;
+}
+
+.inner2-p button{
+  margin-left: 140px;
+
+  color: white;
+  border-radius: 14px;
+  width: 200px;
+  height: 60px;
+  background-color: #2D3551;
 }
