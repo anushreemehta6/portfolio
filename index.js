@@ -2,7 +2,7 @@
  let button = document.getElementById("btn")
 
 function Change(){
-    button.style.backgroundColor = '#DAB5C4'
+    button.style.backgroundColor = '#E6632B'
     button.style.color = 'black'
 }
 function change2(){
