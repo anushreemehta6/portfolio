@@ -40,7 +40,7 @@ body{
     height: 525px;
     border-radius: 50%;
 }
-#btnmain{
+#btnmain , #resumebtn{
     padding-left: 50px;
 }
 button{
@@ -54,12 +54,14 @@ button{
     color: white;
      
 }
-#btn a{
+#btn a , #rbtn a{
     text-decoration: none;
     color: white;
 }
 
-
+.butn{
+    display: flex;
+}
 .exp-2{
     text-decoration: none;
     color: white;

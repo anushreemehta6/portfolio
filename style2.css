@@ -7,7 +7,9 @@ body {
   width: 1440px;
 }
 .logo {
-  padding: 5px;
+  margin: 15px;
+  display: flex;
+  gap: 30em;
 }
 .logo img {
   width: 100px;
@@ -33,7 +35,7 @@ header {
   align-items: center;
   background-color: #917468;
 }
-.main-nav a , #exp ,#skl,#cont ,#exp-2{
+.main-nav a , #exp ,#skl,#cont ,#exp-2 , #pj{
   text-decoration: none;
   color: white;
   font: medium;
@@ -134,7 +136,7 @@ header {
 
 /* experience page  */
 
-#heading-e ,.heading-s,.heading-c,.heading-p {
+#heading-e ,.heading-s,.heading-c,#heading-p,.heading-a {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -266,6 +268,7 @@ header {
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 120px;
 }
 .outer-p{
   width: 564px;
@@ -273,7 +276,7 @@ header {
   background-color: #dab5c4;
   border-radius: 26px;
 }
-.inner-p{
+.inner-p img{
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -282,8 +285,10 @@ header {
   top: 150em;
   left: 14em;
    /* margin-left: 150px; */
+   z-index: 10;
   
 }
+
 
 .inner2-p{
   background-color: #917468;
@@ -322,4 +327,151 @@ header {
   width: 200px;
   height: 60px;
   background-color: #2D3551;
+}
+
+/* second-box */
+
+.innerimag1 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 150em;
+  left: 59em;
+}
+
+.innerhead2-p,.innerhead4-p,.innerhead3-p,.innerhead5-p,.innerhead6-p ,.innerhead7-p ,.innerhead8-p{
+  text-align: center;
+  margin-top: 130px;
+  font-size: 40px;
+   font-weight: bold;
+  font-family: "Hepta Slab", serif;
+}
+.inner22-p{
+  background-color: #917468;
+  width: 514px;
+  height: 248px;
+  border-radius: 15px;
+  position: absolute;
+  /* left: 3em; */
+  margin: 20px;
+
+}
+.continner2-p,.continner3-p,.continner4-p,.continner5-p,.continner6-p ,.continner7-p ,.continner8-p{
+  padding: 15px;
+  text-align: center;
+  font-size: 29px;
+  font-family: "Hepta Slab", serif;
+  color: white;
+}
+
+.inner22-p button  , .inner23-p button , .inner24-p button , .inner25-p button  ,.inner26-p button ,.inner27-p button ,.inner28-p button{
+  margin-left: 140px;
+  margin-top: 20px;
+ 
+  border-radius: 14px;
+  width: 200px;
+  height: 60px;
+  background-color: #2D3551;
+}
+.inner2-p button a,.inner22-p button a ,.inner23-p button a ,.inner24-p button a,.inner25-p button a,.inner26-p button a,.inner27-p button a,.inner28-p button a{
+ text-decoration: none;
+ color: white;
+}
+/* third-box */
+
+.innerimag2 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 189em;
+  left: 14em;
+
+}
+.inner23-p{
+  background-color: #917468;
+  width: 514px;
+  height: 248px;
+  border-radius: 15px;
+  position: absolute;
+  margin: 20px;
+}
+/* forth-box */
+
+.innerimag3 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 189em;
+  left: 59em;
+
+}
+.inner24-p{
+  background-color: #917468;
+  width: 514px;
+  height: 248px;
+  border-radius: 15px;
+  position: absolute;
+  margin: 20px;
+}
+
+/* fifth-box */
+
+.innerimag4 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 228em;
+  left: 14em;
+
+}
+.inner25-p , .inner26-p ,.inner27-p ,.inner28-p{
+  background-color: #917468;
+  width: 514px;
+  height: 248px;
+  border-radius: 15px;
+  position: absolute;
+  margin: 20px;
+}
+/* sixth-box */
+
+.innerimag5 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 228em;
+  left: 60em;
+}
+
+/* seventh-box */
+
+.innerimag6 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 268em;
+  left: 14em;
+}
+ 
+/* eigth -box  */
+
+.innerimag7 img{
+  width: 255px;
+  height: 175px;
+  background-color: #917468;
+  border-radius: 23px;
+  position: absolute;
+  top: 268em;
+  left: 60em;
 }
