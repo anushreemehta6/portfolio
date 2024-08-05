@@ -475,3 +475,21 @@ header {
   top: 268em;
   left: 60em;
 }
+
+
+/* skill page  */
+
+.wrapper{
+  max-height: 120px;
+  border: 1px solid #dddd;
+  display: flex;
+
+}
+
+.wrapper .item{
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ddd;
+}
