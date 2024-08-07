@@ -136,7 +136,7 @@ header {
 
 /* experience page  */
 
-#heading-e ,.heading-s,.heading-c,#heading-p,.heading-a {
+#heading-e ,.heading-s,.heading-c,#heading-p,.heading-a,#heading-s,.heading-t {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -480,16 +480,49 @@ header {
 /* skill page  */
 
 .wrapper{
-  max-height: 120px;
-  border: 1px solid #dddd;
+  max-height: 360px;
+  border: 0.25px solid #dddd;
+  border-radius: 8px;
   display: flex;
+  overflow-x: auto;
+  margin: 40px;
 
 }
-
-.wrapper .item{
-  min-width: 110px;
-  height: 110px;
-  line-height: 110px;
+.wrapper::-webkit-scrollbar{
+  width: 0;
+}
+.wrapper .item img{
+  min-width: 320px;
+  height: 320px;
+  line-height: 320px;
   text-align: center;
   background-color: #ddd;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+/* tools used  */
+.tool{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.wrapper-2{
+  max-height: 260px;
+  border: 0.5px solid #dddd;
+  display: flex;
+  overflow-x: auto;
+  margin: 50px;
+  border-radius: 8px;
+}
+.wrapper-2::-webkit-scrollbar{
+  width: 0;
+}
+.wrapper-2 .item-2 img{
+  min-width: 220px;
+  height: 220px;
+  line-height: 220px;
+  text-align: center;
+  background-color: #ddd;
+  margin: 10px;
+  border-radius: 50%;
 }
