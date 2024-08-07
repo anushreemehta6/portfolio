@@ -50,7 +50,7 @@ document.getElementById("exp").addEventListener("click", function () {
 });
 // scroll to skill
 document.getElementById("skl").addEventListener("click", function () {
-  document.getElementById("heading-e").scrollIntoView({ behavior: "smooth" });
+  document.getElementById("heading-s").scrollIntoView({ behavior: "smooth" });
 });
 
 // scroll to contact me
@@ -66,3 +66,15 @@ document.getElementById("cont").addEventListener("click", function () {
 document.getElementById("pj").addEventListener("click", function () {
   document.getElementById("heading-p").scrollIntoView({ behavior: "smooth" });
 });
+
+
+// color change project btns
+let otherbtn = document.getElementsByClassName("chnbtn");
+function other() {
+  otherbtn.style.backgroundColor = "#E6632B";
+  otherbtn.style.color = "black";
+}
+function other2() {
+  otherbtn.style.backgroundColor = "#2D3551";
+  otherbtn.style.color = "white";
+}
