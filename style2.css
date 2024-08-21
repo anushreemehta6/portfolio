@@ -212,7 +212,31 @@ header {
   font-weight: 800;
   text-align: center;
 }
-
+@media only screen and (max-width: 700px) {
+  #heading-e{
+    font-size: 24px;
+     text-align: start;
+     padding-left: 80px;
+  }
+  .outer{
+   max-width:750px ;
+   max-height: max-content;
+   overflow:scroll;
+  }
+  .inner{
+    max-width: 650px;
+    max-height: 525px;
+    overflow: scroll;
+  }
+  .supinner{
+    max-width: 550px;
+    font-size: 16px;
+    
+  }
+  #outer{
+    font-size: 10px;
+  }
+}
 .outer {
   margin-left: 65px;
   width: 1365px;
