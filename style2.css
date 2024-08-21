@@ -35,6 +35,7 @@ header {
   align-items: center;
   background-color: #917468;
 }
+
 .main-nav a,
 #exp,
 #skl,
@@ -56,7 +57,9 @@ header {
   padding-left: 100px;
   gap: 20px;
 }
-@media only screen and (max-width: 400px) {
+
+/* second page  */
+@media only screen and (max-width: 700px) {
   body {
     min-width: 390px;
     max-width: fit-content;
@@ -76,7 +79,8 @@ header {
     gap: 50px;
   }
 
-  .first,.second{
+  .first,
+  .second {
     width: 250px;
     max-height: fit-content;
   }
@@ -136,6 +140,35 @@ header {
   font-size: 48px;
   font-family: "Hepta Slab", serif;
   padding-bottom: 50px;
+}
+
+/* more about us page starts */
+@media only screen and (max-width: 700px) {
+  .navbar {
+    min-width: 400px;
+    max-width: fit-content;
+  }
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+  .main-nav {
+    width: 661px;
+    font-size: 5px;
+    height: fit-content;
+  }
+  .about {
+    max-width: 650px;
+  }
+  .two-part {
+    font-size: 25px;
+  }
+  .box2 {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 5em;
+  }
 }
 .box2 {
   padding-top: 30px;
