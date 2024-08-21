@@ -32,14 +32,32 @@ body{
     color: #DAB5C4;
 }
 .mainimg img{
-    position: absolute;
+    /* position: absolute;
     right: 0;
     
-    bottom: 2px;
+    bottom: 2px; */
     width: 525px;
     height: 525px;
     border-radius: 50%;
+    min-width: 400px;
+    min-height: 400px;
 }
+.cover{
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+   
+   .mainimg img{
+    width: 267px;
+    height: 267px;
+    padding-top: 30px;
+    
+   } 
+   .cover{
+    display: block;
+   }   
+  }
 #btnmain , #resumebtn{
     padding-left: 50px;
 }
