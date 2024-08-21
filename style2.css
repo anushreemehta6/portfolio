@@ -35,7 +35,12 @@ header {
   align-items: center;
   background-color: #917468;
 }
-.main-nav a , #exp ,#skl,#cont ,#exp-2 , #pj{
+.main-nav a,
+#exp,
+#skl,
+#cont,
+#exp-2,
+#pj {
   text-decoration: none;
   color: white;
   font: medium;
@@ -50,6 +55,31 @@ header {
   justify-content: space-evenly;
   padding-left: 100px;
   gap: 20px;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    min-width: 390px;
+    max-width: fit-content;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .heading-a {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  .logo {
+    gap: 50px;
+  }
+
+  .first,.second{
+    width: 250px;
+    max-height: fit-content;
+  }
 }
 .first {
   width: 530px;
@@ -130,13 +160,19 @@ header {
   background: #917468;
   box-shadow: 0 0 100px #917468;
 }
-.spe{
+.spe {
   font-family: "Grenze Gotisch", serif;
 }
 
 /* experience page  */
 
-#heading-e ,.heading-s,.heading-c,#heading-p,.heading-a,#heading-s,.heading-t {
+#heading-e,
+.heading-s,
+.heading-c,
+#heading-p,
+.heading-a,
+#heading-s,
+.heading-t {
   padding: 20px;
   font-size: 48px;
   color: white;
@@ -179,66 +215,61 @@ header {
   color: white;
   font-size: 25px;
 }
-#inner2{
-    padding-top: 80px;
-    text-align: center;
-    color: white;
+#inner2 {
+  padding-top: 80px;
+  text-align: center;
+  color: white;
 }
-
 
 /* skills page  */
-.heading-s{
 
-}
-.scroller{
+.scroller {
   display: flex;
   gap: 20px;
   overflow: auto;
   white-space: nowrap;
 }
-.scroll-items img{
+.scroll-items img {
   width: 290px;
   height: 290px;
   border-radius: 50%;
 }
 
 /* contact page  */
-.imag img{
+.imag img {
   margin-left: 30px;
   width: 498px;
   height: 513px;
   border-radius: 50%;
 }
-.box-c{
+.box-c {
   width: 750px;
   height: 550px;
   border-radius: 92px;
   background-color: #dab5c4;
   padding: 20px;
 }
-.bg{
+.bg {
   display: flex;
   justify-content: space-between;
-  
 }
-.name{
+.name {
   display: flex;
   justify-content: space-around;
 }
-.incont-c{
-  font-size: 36px ;
+.incont-c {
+  font-size: 36px;
   font-weight: 600;
-   
-  font-family: "Hepta Slab", serif;
 
+  font-family: "Hepta Slab", serif;
 }
-.cont-c{
+.cont-c {
   padding-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 80px;
 }
-.input-c{
+.input-c {
   width: 375px;
   height: 55px;
   background-color: #917468;
@@ -247,12 +278,12 @@ header {
   font-size: 29px;
 }
 
-.icons{
+.icons {
   display: flex;
- 
+
   justify-content: center;
 }
-.last{
+.last {
   height: 30px;
   width: 1440px;
   font-size: larger;
@@ -262,21 +293,20 @@ header {
   text-align: center;
 }
 
-
 /* project page */
-.row{
+.row {
   padding-top: 20px;
   display: flex;
   justify-content: space-around;
   margin-bottom: 120px;
 }
-.outer-p{
+.outer-p {
   width: 564px;
   height: 493px;
   background-color: #dab5c4;
   border-radius: 26px;
 }
-.inner-p img{
+.inner-p img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -284,13 +314,11 @@ header {
   position: absolute;
   top: 150em;
   left: 14em;
-   /* margin-left: 150px; */
-   z-index: 10;
-  
+  /* margin-left: 150px; */
+  z-index: 10;
 }
 
-
-.inner2-p{
+.inner2-p {
   background-color: #917468;
   width: 514px;
   height: 248px;
@@ -303,15 +331,15 @@ header {
   flex-direction: column;
   gap: 30px;
 }
-.innerhead-p{
+.innerhead-p {
   text-align: center;
   margin-top: 130px;
   font-size: 40px;
-   font-weight: bold;
+  font-weight: bold;
   font-family: "Hepta Slab", serif;
 }
 
-.continner-p{
+.continner-p {
   padding: 15px;
   text-align: center;
   font-size: 29px;
@@ -319,19 +347,19 @@ header {
   color: white;
 }
 
-.inner2-p button{
+.inner2-p button {
   margin-left: 140px;
 
   color: white;
   border-radius: 14px;
   width: 200px;
   height: 60px;
-  background-color: #2D3551;
+  background-color: #2d3551;
 }
 
 /* second-box */
 
-.innerimag1 img{
+.innerimag1 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -341,14 +369,20 @@ header {
   left: 59em;
 }
 
-.innerhead2-p,.innerhead4-p,.innerhead3-p,.innerhead5-p,.innerhead6-p ,.innerhead7-p ,.innerhead8-p{
+.innerhead2-p,
+.innerhead4-p,
+.innerhead3-p,
+.innerhead5-p,
+.innerhead6-p,
+.innerhead7-p,
+.innerhead8-p {
   text-align: center;
   margin-top: 130px;
   font-size: 40px;
-   font-weight: bold;
+  font-weight: bold;
   font-family: "Hepta Slab", serif;
 }
-.inner22-p{
+.inner22-p {
   background-color: #917468;
   width: 514px;
   height: 248px;
@@ -356,9 +390,14 @@ header {
   position: absolute;
   /* left: 3em; */
   margin: 20px;
-
 }
-.continner2-p,.continner3-p,.continner4-p,.continner5-p,.continner6-p ,.continner7-p ,.continner8-p{
+.continner2-p,
+.continner3-p,
+.continner4-p,
+.continner5-p,
+.continner6-p,
+.continner7-p,
+.continner8-p {
   padding: 15px;
   text-align: center;
   font-size: 29px;
@@ -366,22 +405,35 @@ header {
   color: white;
 }
 
-.inner22-p button  , .inner23-p button , .inner24-p button , .inner25-p button  ,.inner26-p button ,.inner27-p button ,.inner28-p button{
+.inner22-p button,
+.inner23-p button,
+.inner24-p button,
+.inner25-p button,
+.inner26-p button,
+.inner27-p button,
+.inner28-p button {
   margin-left: 140px;
   margin-top: 20px;
- 
+
   border-radius: 14px;
   width: 200px;
   height: 60px;
-  background-color: #2D3551;
+  background-color: #2d3551;
 }
-.inner2-p button a,.inner22-p button a ,.inner23-p button a ,.inner24-p button a,.inner25-p button a,.inner26-p button a,.inner27-p button a,.inner28-p button a{
- text-decoration: none;
- color: white;
+.inner2-p button a,
+.inner22-p button a,
+.inner23-p button a,
+.inner24-p button a,
+.inner25-p button a,
+.inner26-p button a,
+.inner27-p button a,
+.inner28-p button a {
+  text-decoration: none;
+  color: white;
 }
 /* third-box */
 
-.innerimag2 img{
+.innerimag2 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -389,9 +441,8 @@ header {
   position: absolute;
   top: 189em;
   left: 14em;
-
 }
-.inner23-p{
+.inner23-p {
   background-color: #917468;
   width: 514px;
   height: 248px;
@@ -401,7 +452,7 @@ header {
 }
 /* forth-box */
 
-.innerimag3 img{
+.innerimag3 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -409,9 +460,8 @@ header {
   position: absolute;
   top: 189em;
   left: 59em;
-
 }
-.inner24-p{
+.inner24-p {
   background-color: #917468;
   width: 514px;
   height: 248px;
@@ -422,7 +472,7 @@ header {
 
 /* fifth-box */
 
-.innerimag4 img{
+.innerimag4 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -430,9 +480,11 @@ header {
   position: absolute;
   top: 228em;
   left: 14em;
-
 }
-.inner25-p , .inner26-p ,.inner27-p ,.inner28-p{
+.inner25-p,
+.inner26-p,
+.inner27-p,
+.inner28-p {
   background-color: #917468;
   width: 514px;
   height: 248px;
@@ -442,7 +494,7 @@ header {
 }
 /* sixth-box */
 
-.innerimag5 img{
+.innerimag5 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -454,7 +506,7 @@ header {
 
 /* seventh-box */
 
-.innerimag6 img{
+.innerimag6 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -463,10 +515,10 @@ header {
   top: 268em;
   left: 14em;
 }
- 
+
 /* eigth -box  */
 
-.innerimag7 img{
+.innerimag7 img {
   width: 255px;
   height: 175px;
   background-color: #917468;
@@ -476,22 +528,20 @@ header {
   left: 60em;
 }
 
-
 /* skill page  */
 
-.wrapper{
+.wrapper {
   max-height: 360px;
   border: 0.25px solid #dddd;
   border-radius: 8px;
   display: flex;
   overflow-x: auto;
   margin: 40px;
-
 }
-.wrapper::-webkit-scrollbar{
+.wrapper::-webkit-scrollbar {
   width: 0;
 }
-.wrapper .item img{
+.wrapper .item img {
   min-width: 320px;
   height: 320px;
   line-height: 320px;
@@ -502,11 +552,11 @@ header {
 }
 
 /* tools used  */
-.tool{
+.tool {
   margin-top: 20px;
   margin-bottom: 30px;
 }
-.wrapper-2{
+.wrapper-2 {
   max-height: 260px;
   border: 0.5px solid #dddd;
   display: flex;
@@ -514,10 +564,10 @@ header {
   margin: 50px;
   border-radius: 8px;
 }
-.wrapper-2::-webkit-scrollbar{
+.wrapper-2::-webkit-scrollbar {
   width: 0;
 }
-.wrapper-2 .item-2 img{
+.wrapper-2 .item-2 img {
   min-width: 220px;
   height: 220px;
   line-height: 220px;
