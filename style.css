@@ -1,89 +1,102 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-color: #2D3551;
-    width: 1440px;
-    
+body {
+  background-color: #2d3551;
+  width: 1440px;
 }
-.logo{
-    padding: 5px;
+.logo {
+  padding: 5px;
 }
-.logo img{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
-.maintext{
-    padding: 50px;
+.maintext {
+  padding: 50px;
 }
-.child-1,.child-2{
-   
-    font-family: "Inter", sans-serif;
-    font-size: 40px;
-    color: white;
-
+.child-1,
+.child-2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  color: white;
 }
-.child-3{
-    font-family: "Inter", sans-serif;
-    font-size: 90px;
-    font-weight: bolder;
-    color: #DAB5C4;
+.child-3 {
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+  color: #dab5c4;
 }
-.mainimg img{
-    /* position: absolute;
+.mainimg img {
+  /* position: absolute;
     right: 0;
     
     bottom: 2px; */
-    width: 525px;
-    height: 525px;
-    border-radius: 50%;
-    min-width: 400px;
-    min-height: 400px;
+  width: 525px;
+  height: 525px;
+  border-radius: 50%;
+  min-width: 400px;
+  min-height: 400px;
 }
-.cover{
-    display: flex;
+.cover {
+  display: flex;
+  gap: 6em;
 }
 
-@media only screen and (max-width: 600px) {
-   
-   .mainimg img{
-    width: 267px;
-    height: 267px;
-    padding-top: 30px;
-    
-   } 
-   .cover{
-    display: block;
-   }   
+/* responsive for iphone 14 pro max  */
+@media only screen and (max-width: 700px) {
+  .mainimg img {
+    width: 200px;
+    height: 200px;
+    padding-top: 10px;
   }
-#btnmain , #resumebtn{
-    padding-left: 50px;
-}
-button{
-    width: 234px;
-    height: 70px;
-    border-radius: 34px;
-    font: medium;
-    font-family: "Inter", sans-serif;
-    font-size: 30px;
-    background-color: #917468;
-    color: white;
+  .cover{
+    display: flex;
+    flex-direction: column;
      
+  }
+  .child-3{
+    font-size: 30px;
+  }
+  .child-1,
+  .child-2{
+   font-size: 20px;
+  }
+  .butn{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+  }
 }
-#btn a , #rbtn a{
-    text-decoration: none;
-    color: white;
+#btnmain,
+#resumebtn {
+  padding-left: 50px;
+}
+button {
+  width: 234px;
+  height: 70px;
+  border-radius: 34px;
+  font: medium;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  background-color: #917468;
+  color: white;
+}
+#btn a,
+#rbtn a {
+  text-decoration: none;
+  color: white;
 }
 
-.butn{
-    display: flex;
+.butn {
+  display: flex;
 }
-.exp-2{
-    text-decoration: none;
-    color: white;
-    font: medium;
-    font-family: "Inter", sans-serif;
-    font-size: 30px;
+.exp-2 {
+  text-decoration: none;
+  color: white;
+  font: medium;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
 }
